@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HelloApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="My Hello WPF" Height="450" Width="800" WindowStyle="ThreeDBorderWindow" WindowState="Maximized" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="#FF2C2A4B">
+    
+        <Button x:Name="HelloButton" Content="반갑습니다" HorizontalAlignment="Left" Margin="256,146,0,0" VerticalAlignment="Top" Height="82" Width="194" FontSize="22" Click="HelloButton_Click"/>
 
-    </Grid>
+    
 </Window>
