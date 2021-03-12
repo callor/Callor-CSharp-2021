@@ -6,8 +6,11 @@
         xmlns:local="clr-namespace:HelloApp"
         mc:Ignorable="d"
         Title="My Hello WPF" Height="450" Width="800" WindowStyle="ThreeDBorderWindow" WindowState="Maximized" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" Background="#FF2C2A4B">
-    
-        <Button x:Name="HelloButton" Content="반갑습니다" HorizontalAlignment="Left" Margin="256,146,0,0" VerticalAlignment="Top" Height="82" Width="194" FontSize="22" Click="HelloButton_Click"/>
 
-    
+    <DockPanel LastChildFill="False">
+        <Button x:Name="HelloButton" Content="반갑습니다" HorizontalAlignment="Left" Margin="359,348,0,0" VerticalAlignment="Top" Height="35" Width="102" Click="HelloButton_Click" RenderTransformOrigin="0.5,0.5">
+        </Button>
+    </DockPanel>
+
+
 </Window>
